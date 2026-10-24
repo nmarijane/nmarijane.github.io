@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Utilisation des données Google, stockage et révocation de l’accès pour Mira, l’assistant OpenClaw personnel de Nicolas.">
+  <title>Confidentialité — Mira — OpenClaw personnel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div class="page">
+    <header>
+      <a class="brand" href="index.html">Mira <span>OpenClaw personnel</span></a>
+      <nav aria-label="Navigation principale">
+        <a href="index.html">Présentation</a>
+        <a href="confidentialite.html" aria-current="page">Confidentialité</a>
+        <a href="utilisation.html">Utilisation</a>
+      </nav>
+    </header>
+    <main id="contenu">
+      <p class="eyebrow">Données et autorisations</p>
+      <h1>Confidentialité</h1>
+      <p class="lead">Mira est l’assistant OpenClaw personnel de Nicolas. L’accès aux services Google sert à exécuter ses demandes sur son propre compte.</p>
+      <section aria-labelledby="donnees">
+        <h2 id="donnees">Données utilisées</h2>
+        <p>Selon la demande et les autorisations accordées, Mira peut accéder aux messages et pièces jointes Gmail, aux calendriers et événements, ainsi qu’aux fichiers et à leur contenu dans Drive, Docs et Sheets.</p>
+        <p>Les autorisations Gmail permettent la lecture et l’envoi de messages. Les autorisations Agenda, Drive, Docs et Sheets permettent de consulter et de gérer ces ressources, notamment de créer, modifier ou supprimer des éléments. Ces accès sont destinés aux tâches demandées par Nicolas.</p>
+      </section>
+      <section aria-labelledby="traitement">
+        <h2 id="traitement">Traitement et transmission</h2>
+        <p>OpenClaw fonctionne sur le VPS privé de Nicolas. Les informations utiles à une tâche peuvent être transmises à OpenAI pour le traitement par l’assistant, via l’abonnement ChatGPT/Codex de Nicolas. Elles peuvent aussi apparaître dans ses conversations et dans l’historique conservé sur le VPS.</p>
+        <p>Lorsqu’une réponse est envoyée sur Telegram, son contenu est transmis à Telegram. Un envoi d’e-mail ou un partage de fichier demandé par Nicolas transmet également les informations concernées aux destinataires choisis.</p>
+      </section>
+      <section aria-labelledby="stockage">
+        <h2 id="stockage">Stockage et conservation</h2>
+        <p>Les identifiants OAuth permettant la connexion à Google sont stockés dans des fichiers protégés sur le VPS. Nicolas administre cette installation, ses conversations, ses fichiers et ses sauvegardes.</p>
+        <p>Aucune durée automatique de suppression n’est annoncée ici. Les données conservées sur le VPS restent soumises à la gestion et aux suppressions effectuées par Nicolas. Les services Google, OpenAI et Telegram appliquent également leurs propres règles aux données qu’ils traitent.</p>
+      </section>
+      <section aria-labelledby="retrait">
+        <h2 id="retrait">Retirer l’accès et supprimer des données</h2>
+        <p>Nicolas peut retirer l’autorisation de Mira dans la rubrique des connexions aux applications et services tiers de son compte Google. Cette révocation empêche l’utilisation future de cette autorisation.</p>
+        <p>Retirer l’accès Google ne supprime pas automatiquement les conversations, les fichiers ou les sauvegardes déjà présents sur le VPS, ni les messages déjà envoyés. Leur suppression se gère séparément, dans l’installation et dans les services concernés.</p>
+      </section>
+      <section aria-labelledby="site">
+        <h2 id="site">Ce site d’information</h2>
+        <p>Ces pages ne proposent ni formulaire, ni inscription, ni connexion à Mira. Elles n’intègrent aucun outil d’analyse, aucun cookie applicatif et aucune ressource externe chargée automatiquement.</p>
+        <p>L’hébergeur peut traiter les informations techniques nécessaires à la livraison des pages, comme l’adresse IP et les requêtes HTTP. Lors d’un hébergement sur GitHub Pages, GitHub conserve notamment l’adresse IP des visiteurs à des fins de sécurité. Ce traitement est distinct du fonctionnement de Mira ; la <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">déclaration de confidentialité de GitHub</a> en précise les règles.</p>
+      </section>
+    </main>
+    <footer><p>Mira — OpenClaw personnel · Informations mises à jour le 24 octobre 2026.</p></footer>
+  </div>
+</body>
+</html>

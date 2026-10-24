@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Présentation de Mira, l’assistant OpenClaw personnel de Nicolas, et de son accès aux services Google.">
+  <title>Mira — OpenClaw personnel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div class="page">
+    <header>
+      <a class="brand" href="index.html">Mira <span>OpenClaw personnel</span></a>
+      <nav aria-label="Navigation principale">
+        <a href="index.html" aria-current="page">Présentation</a>
+        <a href="confidentialite.html">Confidentialité</a>
+        <a href="utilisation.html">Utilisation</a>
+      </nav>
+    </header>
+    <main id="contenu">
+      <p class="eyebrow">Assistant à usage personnel</p>
+      <h1>Un assistant pour les tâches de Nicolas.</h1>
+      <p class="lead">Mira est une installation personnelle d’OpenClaw, hébergée sur le VPS privé de Nicolas. Elle l’aide à traiter ses demandes à travers Telegram et un tableau de bord privé accessible par une connexion SSH.</p>
+      <section aria-labelledby="google">
+        <h2 id="google">Pourquoi connecter Google ?</h2>
+        <p>Nicolas autorise Mira à utiliser son compte Google pour les tâches qu’il lui demande : lire et envoyer des e-mails dans Gmail, gérer son agenda et travailler avec ses fichiers Drive, Google Docs et Google Sheets.</p>
+        <p>La connexion utilise OAuth : Google présente les autorisations demandées et Nicolas peut révoquer cet accès depuis son compte Google.</p>
+      </section>
+      <section aria-labelledby="fonctionnement">
+        <h2 id="fonctionnement">Comment fonctionne Mira ?</h2>
+        <p>L’assistant utilise OpenAI via l’abonnement ChatGPT/Codex de Nicolas. Les données utiles à une demande peuvent être traitées par OpenAI et apparaître dans les conversations et l’historique conservés sur le VPS. Les réponses envoyées sur Telegram passent également par Telegram.</p>
+        <p>La <a href="confidentialite.html">page de confidentialité</a> explique ces échanges et la gestion de l’accès Google.</p>
+      </section>
+      <aside class="note" aria-label="À propos de ce site">
+        <p>Ce site présente l’installation personnelle de Mira. Il ne donne accès ni à l’assistant, ni au compte Google, ni aux données de Nicolas. Il ne propose aucune inscription.</p>
+      </aside>
+    </main>
+    <footer><p>Mira — OpenClaw personnel · Informations mises à jour le 24 octobre 2026.</p></footer>
+  </div>
+</body>
+</html>
